@@ -76,10 +76,3 @@ O servidor iniciará na porta **3000**.
   "disponivel": true
 }
 ```
-
-## ✒️ Autor
-
-Projeto desenvolvido por **Thiago Vinícius**.
-
-```
-```
