@@ -6,10 +6,12 @@ Este projeto é uma API REST desenvolvida como trabalho universitário. O sistem
 
 ## 🚀 Tecnologias
 
-* **Linguagem:** TypeScript / Node.js
-* **Framework:** Express
-* **Banco de Dados:** SQLite
-* **ORM:** TypeORM
+* **Node.js**: Ambiente de execução JavaScript.
+* **TypeScript**: Superset do JavaScript com tipagem estática.
+* **Express**: Framework web para construção da API.
+* **TypeORM**: ORM para manipulação do banco de dados.
+* **SQLite**: Banco de dados relacional leve (arquivo local).
+* **Nodemon**: Utilitário para monitorar alterações e reiniciar o servidor automaticamente.
 
 ---
 
