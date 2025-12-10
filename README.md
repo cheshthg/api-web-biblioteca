@@ -1,39 +1,38 @@
-````
-# 📚 API Web - Biblioteca
+# 📚 API Web - Sistema de Biblioteca
 
-Este projeto consiste em uma API REST desenvolvida como parte de um trabalho universitário. O objetivo é fornecer um sistema simples para o gerenciamento de livros (CRUD) utilizando Node.js e TypeScript.
+Este projeto é uma API REST desenvolvida como trabalho universitário. O sistema realiza o gerenciamento de livros (CRUD) utilizando Node.js e TypeScript, persistindo os dados em um banco local SQLite.
 
-## 🚀 Tecnologias Utilizadas
+---
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+## 🚀 Tecnologias
 
-- **Node.js**: Ambiente de execução JavaScript.
-- **TypeScript**: Superset do JavaScript com tipagem estática.
-- **Express**: Framework web para construção da API.
-- **TypeORM**: ORM para manipulação do banco de dados.
-- **SQLite**: Banco de dados relacional leve (arquivo local).
-- **Nodemon**: Utilitário para monitorar alterações e reiniciar o servidor automaticamente.
+* **Linguagem:** TypeScript / Node.js
+* **Framework:** Express
+* **Banco de Dados:** SQLite
+* **ORM:** TypeORM
 
-## ⚙️ Funcionalidades
+---
 
-A API permite realizar as seguintes operações na entidade **Livros**:
+## 📝 Funcionalidades
 
-- **Criar**: Cadastrar um novo livro.
-- **Ler**: Listar todos os livros ou buscar um livro específico por ID.
-- **Atualizar**: Alterar dados de um livro existente (ex: disponibilidade).
-- **Deleter**: Remover um livro do banco de dados.
+O sistema permite:
+1.  **Criar** um novo livro.
+2.  **Listar** todos os livros cadastrados.
+3.  **Buscar** um livro específico pelo ID.
+4.  **Atualizar** as informações de um livro.
+5.  **Excluir** um livro do registro.
 
-## 🛠️ Como Rodar o Projeto
+---
 
-### Pré-requisitos
-Certifique-se de ter o **Node.js** instalado em sua máquina.
+## 💻 Como Rodar o Projeto
 
-### Passo a Passo
+Siga os passos abaixo no seu terminal:
 
 1. **Clone o repositório:**
+
    ```bash
    git clone [https://github.com/cheshthg/api-web-biblioteca.git](https://github.com/cheshthg/api-web-biblioteca.git)
-````
+   ```
 
 2.  **Acesse a pasta do projeto:**
 
@@ -76,3 +75,7 @@ O servidor iniciará na porta **3000**.
   "disponivel": true
 }
 ```
+
+## 💻Autor
+
+Projeto desenvolvido por **Thiago Vinícius**
